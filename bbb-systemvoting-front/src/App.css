@@ -1,0 +1,17 @@
+.fundo-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/fundo-degrade.jpg');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  text-align: center;
+}
+
+body {
+  font: 400 14px Roboto, sans-serif;
+}

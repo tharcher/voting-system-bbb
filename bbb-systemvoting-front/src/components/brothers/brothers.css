@@ -1,0 +1,82 @@
+.brothers-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.brothers-card img {
+    max-width: 100%;
+}
+
+.brothers-card button {
+    margin-top: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 1rem;
+    width: 100%;
+    margin: auto;
+}
+
+.card {
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-left: 30px;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 3px rgba(66,153,225,.5);
+    }
+}
+
+
+.votar-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.votar-btn:hover {
+    background-color: darkblue;
+}
+
+.card img {
+    width: 100%;
+    height: 508px;
+    display: block;
+    margin: auto;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card.selecionado {
+    border: 3px solid rgba(66,153,225,.5);
+    transform: scale(1.05);
+}
+
+.titulo {
+    font-size: 60px;
+}
+
+.sub-titulo {
+    font-size: 20px;
+}
